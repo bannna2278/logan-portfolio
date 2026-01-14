@@ -1,40 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Logan's Portfolio</title>
-        <link rel="stylesheet" href="style.css">
-  <button id="theme-toggle">Light/dark mode</button>
-  <link rel ="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-    </head>
-    <body>
-        <h1>Welcome to my portfolio!</h1>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <nav class="main-nav";>
-            <ul class="navbar">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="contactme.html">Contact Me</a></li>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logan's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+    <button id="theme-toggle">Light/dark mode</button>
+
+    <h1>Welcome to my portfolio!</h1>
+
+    <nav class="main-nav">
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
             <li class="dropdown">
-                <a href="#">projects</a>
+                <a href="#">Projects</a>
                 <ul class="dropdown-content">
-            <li><a href="pastprojects.html">Past projects</a><li>
-            <li><a href="currentprojects.html">Current projects</a><li>
-                </li>
-            </ul>
+                    <li><a href="pastprojects.html">Past projects</a></li>
+                    <li><a href="currentprojects.html">Current projects</a></li>
+                </ul>
+            </li>
+        </ul>
     </nav>
     
-<p class="intro">  My name is logan and I am a junior web developer. I focus on creating clean, responsive, functional, and user friendly websites in HTML, CSS, and JavaScript.</p>
-      </p> <section class="tech-stack">
-  <h2>Technologies I Use</h2>
-  <div class="icon-container">
-    <i class="devicon-html5-plain-wordmark colored"></i> <i class="devicon-css3-plain-wordmark colored"></i> <i class="devicon-javascript-plain colored"></i> </div>
-</section>
-<h2>About Me</h2>
-<br>
-<p class="intro">Hello! My name is logan, i have a strong passion for web develpment and creating user friendly, functional, and visually appealing websites. I enjoy learning new technologies and improving my skills in HTML, CSS, and JavaScript.  Thank you for visiting my portfolio!</p>
-<script src="script.js"></script>
-             
-        
+    <div class="content-wrapper">
+            <h1 class="init">My name is Logan and I am a junior web developer.</h1> <p class="intro"></p> I focus on creating clean, responsive, functional, and user-friendly websites in HTML, CSS, and JavaScript.
+            <style>
+                .init {
+                    font-size: 24px;
+                    margin-bottom: 10px;
+                    font-weight: bold;
+                }
+            </style>
+            <button id="call-to-action">Get in Touch</button>
+        </p>
 
-    </body>
-    </html>
+        <section class="tech-stack">
+            <h2>Technologies I Use</h2>
+            <div class="icon-container">
+                <i class="devicon-html5-plain-wordmark colored"></i> 
+                <i class="devicon-css3-plain-wordmark colored"></i> 
+                <i class="devicon-javascript-plain colored"></i> 
+            </div>
+        </section>
+
+        <h2>About Me</h2>
+        <p class="intro">
+            Hello! My name is Logan. I have a strong passion for web development and creating user-friendly, functional, and visually appealing websites. I enjoy learning new technologies and improving my skills in HTML, CSS, and JavaScript. Thank you for visiting my portfolio!
+        </p>
+    </div>
+<h1>Featured Projects</h1>
+<div class="team-container">
+
+    <div class="team-member">
+       
+        <h3>TORCH Chasing Website.</h3>
+        <p class="role"></p>
+        <p class="bio">In this project I worked on a website for my friend and his storm chasing group. Packed with many pages and features, including a WX center with spc outlooks, hurricane center, fire outlooks, live radar, warings feeds, a newsletter, and a whole lot more!</p>
+        <p class="contact"><a href="https://github.com/bannna2278/torchchasing.org">GitHub Repository link</a></p>
+        <p class="contact"><a href="https://torchchasing.org">Active website link.</a></p>
+    
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
