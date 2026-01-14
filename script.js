@@ -203,6 +203,9 @@ ctaBtn.addEventListener('click', () => {
 });
 const websiteRepoBtn = document.getElementById('website-repo');
 websiteRepoBtn.addEventListener('click', () => {
+    window.location.href = 'https://github.com/bannna2278/torchchasing.org';});
+    const websiteBtn = document.getElementById('website');
+websiteBtn.addEventListener('click', () => {
     window.location.href = 'https://torchchasing.org';});
 
 // Add more interactions as needed
